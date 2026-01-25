@@ -11,14 +11,14 @@
 /* cassie */
 body.cassie {
     /* Heading Family */
-    --heading-family: "Astagina Signature", serif;
+    --heading-family: "EB Garamond", serif;
     --heading-style: normal;
     --heading-weight: 500;
     --heading-size: 62px;
     --heading-lettercase: none;
 
     /* Body Text */
-    --body-text-family: "EB Garamond", serif;
+    --body-text-family: "Astagina Signature", serif;
     --body-text-style: normal;
     --body-text-weight: 400;
     --body-text-size: 16px;
@@ -79,10 +79,10 @@ body.cassie.original {
     --button-background-secondary-rgb: 98, 60, 42;
 
     /* ornament */
-    --texture-1: url("../img/media/template/exclusive/cassie/original/texture-1.png");
-    --mask-cover-frame: url("../img/media/template/exclusive/cassie/original/mask-cover.png");
-    --mask-couple: url("../img/media/template/exclusive/cassie/original/mask-couple.png");
-    --orn-agenda: url("../img/media/template/exclusive/cassie/original/divid-1.png");
+    --texture-1: url("../../asset/img/media/template/exclusive/cassie/original/texture-1.png");
+    --mask-cover-frame: url("../../asset/img/media/template/exclusive/cassie/original/mask-cover.png");
+    --mask-couple: url("../../asset/img/media/template/exclusive/cassie/original/mask-couple.png");
+    --orn-agenda: url("../../asset/img/media/template/exclusive/cassie/original/divid-1.png");
 }
 
 @media only screen and (max-width: 960px) {
@@ -300,6 +300,7 @@ section.primary-pane .inner .head-wrap {
 
 .kat-page__side-to-side .primary-pane .inner .details p {
     font-size: var(--body-text-size);
+    font-family: var(--heading-family);
     font-style: normal;
     font-weight: 400;
     text-align: center;
@@ -644,7 +645,7 @@ section.top-cover .inner .details {
 
 section.top-cover .inner .details p {
     text-align: center;
-    font-family: var(--body-text-family);
+    font-family: var(--heading-family);
     font-size: var(--body-text-size);
     color: var(--text-primary);
 }
@@ -671,7 +672,7 @@ section.top-cover .inner .details a.link {
     background-color: var(--button-background-primary);
     color: var(--button-text-primary);
     font-size: var(--body-text-size);
-    font-family: var(--body-text-family);
+    font-family: var(--heading-family);
     font-weight: 400;
     line-height: 1.5;
     text-decoration: none;
