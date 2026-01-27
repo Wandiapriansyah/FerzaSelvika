@@ -1505,7 +1505,7 @@ var AudioManager = {
         $(document).on('click', '.play-btn, .play-youtube-video', function(e) {
             e.preventDefault();
             if (self.state.isMusicPlayed) {
-                self.pauseMusic();
+                // self.pauseMusic();
             }
         });
 
